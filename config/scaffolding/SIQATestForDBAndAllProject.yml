@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.siqatestfordbandall.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQATestForDBAndAllProject
+    version: "1.0"
+- serviceName: project.siqatestfordbandall.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQATestForDBAndAllProject
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
