@@ -11,10 +11,17 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: SIQAJDBCAdapterTests
+  gitServerName: Kusi_VCTest
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Rajni25Aug
+  gitBranch: main
 services:
 - serviceName: project.siqatestfordbandall.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
   - name: SIQATestForDBAndAllProject
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -24,6 +31,8 @@ services:
   packages:
   - name: SIQATestForDBAndAllProject
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -32,6 +41,8 @@ services:
   packages:
   - name: SIQATestForDBAndAllProject
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -39,6 +50,8 @@ services:
 - serviceName: project.siqatestfordbandall.integrations:AlertsCRTandERT
   packages:
   - name: SIQATestForDBAndAllProject
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -51,6 +64,8 @@ services:
 - serviceName: project.siqatestfordbandall.integrations:Copy_deepclonetest
   packages:
   - name: SIQATestForDBAndAllProject
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -72,6 +87,8 @@ services:
   packages:
   - name: SIQATestForDBAndAllProject
     version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -79,6 +96,8 @@ services:
 - serviceName: project.siqatestfordbandall.integrations:deepclonetest
   packages:
   - name: SIQATestForDBAndAllProject
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
